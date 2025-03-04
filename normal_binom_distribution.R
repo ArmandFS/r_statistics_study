@@ -43,10 +43,12 @@ pnorm(-1.304)
 
 
 
+#n = 30, p = 0.05, 
+#calculate probability that 3 animals are caught in these 30 traps for a given week
+dbinom(x=3, size=30, prob = 0.05)
 
-
-
-
+#calculate and find when P(Y<3)
+pbinom(q=2, size=30, prob=0.05)
 
 
 
