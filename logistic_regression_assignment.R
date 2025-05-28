@@ -20,6 +20,7 @@ m <- island_data$Extinct + island_data$NotExtinct
 y <- island_data$Extinct
 mu_hat <- m * predicted_probs
 
+#manual G^2 statistic test
 # Apply formula
 G2 <- 2 * sum(
   y * log(y / mu_hat) + 
