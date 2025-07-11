@@ -84,6 +84,78 @@ floor(163.34839483)
 
 
 #Numeric R objects
+#performing simple math operations 
+#by storing variables
+x <- 2
+y <- 6.4
+
+x2 <- x^2
+fred <-2*x+5
+wilma <- x+y
+a.simple.fraction <- (x+1)/(y+2)
+
+#execute the function/variable
+a.simple.fraction
+
+#logical objects using boolean
+yy <- FALSE
+happy <- TRUE
+
+
+#examples using logical operators
+#tip:never create a variable with true or false
+2 < 3
+
+#will output false
+6 == (1-2)
+
+#output true
+6 != (2+3)
+
+#will output true
+10 > 1.5
+
+#Logical functions in R
+is.logical(2)
+
+is.numeric(2)
+
+is.numeric(2+4)
+
+is.logical(2>4)
+
+
+is.logical(a.simple.fraction)
+
+is.character(wilma)
+
+
+class(a.simple.fraction)
+typeof(wilma)
+
+
+
+#character objects
+myname <- "richard"
+
+
+your.full.name <- 'JUlius Caesar'
+#any thing inside quotes are considered character objects
+myname
+your.full.name
+
+
+
+#If a string contains a single quote we need to be sure to use double quotes as the delimiters or R gets confused.
+seamus <- 'Seamus 0'Leary''
+#that causes an error. Correction is:
+seamus <- "Seamus O'Leary"
+seamus
+
+#the use of \ is an escape character, it says that what comes next needs to be treated differently to everything else
+s <- "I said\"hello\" to the vistor"
+s
+
 
 
 
